@@ -17,7 +17,6 @@ public class FPCamera : MonoBehaviour
     void LateUpdate()
     {
         transform.position = player.transform.position + offset;
-        y = player.transform.localRotation.y;
         transform.rotation = player.transform.localRotation; 
     }
 }
