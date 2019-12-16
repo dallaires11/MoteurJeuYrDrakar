@@ -16,8 +16,8 @@ public class POVController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             camSwitch = !camSwitch;
-            FirstPersonCam.gameObject.SetActive(camSwitch);
-            ThirdPersonCam.gameObject.SetActive(!camSwitch);
+            FirstPersonCam.gameObject.SetActive(!camSwitch);
+            ThirdPersonCam.gameObject.SetActive(camSwitch);
         }
     }
 }
